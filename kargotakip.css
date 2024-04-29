@@ -2,7 +2,6 @@
     background-color: #f2f2f2 !important;
     overflow-x: hidden;
 }
-
 body {
     background: #fff;
     font-size: 12px;
@@ -10,34 +9,28 @@ body {
     color: #202020;
     font-family: 'Open Sans', sans-serif;
 }
-
 div {
     display: block;
 }
-
 #wrapper {
     width: auto;
 
 }
-
 @media (max-width: 1160px) {
     #wrapper {
         float: left;
         width: 100%;
     }
 }
-
 #wrapper>.content {
     z-index: 2;
     float: left;
 }
-
 #wrapper>.content {
     z-index: 2;
     float: left;
     margin-top: 16px;
 }
-
 @media (max-width: 1160px) {
     .container {
         position: relative;
@@ -45,18 +38,15 @@ div {
         margin: 0 auto 0;
     }
 }
-
 .container {
     width: 900px;
     margin: 0 auto 0;
 
 }
-
 .content {
     position: relative;
     width: 100%;
 }
-
 #header {
     width: 100%;
     background-color: #5d3ebc;
@@ -66,7 +56,6 @@ div {
     z-index: 6;
     position: relative;
 }
-
 #header .logo {
     background: #8762f6;
     height: 48px;
@@ -77,18 +66,15 @@ div {
     padding: 4px 0 0 24px;
     box-sizing: border-box;
 }
-
 #header .logo img {
     display: block;
     width: 63px;
     height: 35px;
 }
-
 #header .searchBox .searchArea input {
     height: 48px;
     width: 100%;
 }
-
 .hMenu .hMedMenu>.hMedMenu-item {
     width: 406px;
     max-height: 100%;
@@ -97,23 +83,19 @@ div {
     padding-left: 16px;
     margin-top: 0;
 }
-
 .hMenu {
     height: 48px;
     width: 100%;
     padding: 16px 0;
 }
-
 .hMenu .hMedMenu {
     margin: auto;
     width: 100%;
     display: flex;
 }
-
 .hMedMenu {
     width: 730px;
 }
-
 .hMedMenu {
     position: relative;
     display: inline-block;
@@ -121,7 +103,6 @@ div {
     z-index: 2;
     width: 782px;
 }
-
 .hMenu .hMedMenu .hGroup-logo-search {
     width: 782px;
     max-height: 48px;
@@ -130,23 +111,18 @@ div {
     box-sizing: border-box;
     padding: 0;
 }
-
 .sfbody #wrapper>.content {
     margin-top: 74px !important;
 }
-
 .customMenuItem {
     z-index: 1;
 }
-
 .sfbody .customMenu {
     margin-top: 8px;
 }
-
 .customMenu {
     position: relative;
 }
-
 .customMenuItem .menuTitle {
     display: block;
     margin-bottom: 0;
@@ -156,7 +132,6 @@ div {
     letter-spacing: -.01px;
     color: #beb2e4;
 }
-
 .customMenuItem .menuLink {
     display: block;
     overflow: hidden;
@@ -170,11 +145,9 @@ div {
     font-weight: 600;
     letter-spacing: -.14px;
 }
-
 .myLocationHolder .myLocation .menuTitle {
     margin-top: 3px;
 }
-
 .myLocationHolder::before {
     content: '';
     display: block;
@@ -186,15 +159,12 @@ div {
     margin-top: -14px;
     left: 0px;
 }
-
 .myLocationHolder .myLocation {
     cursor: pointer;
 }
-
 .myLocationHolder .myLocation {
     padding-left: 36px;
 }
-
 .myAccountHolder .myAccount,
 .myLocationHolder .myLocation {
     width: 116px;
@@ -202,12 +172,10 @@ div {
     border-bottom: none;
     z-index: 1;
 }
-
 .myLocation {
     height: 36px;
     cursor: pointer;
 }
-
 .myLocationHolder .myLocationMenu {
     left: auto;
     right: 0;
@@ -216,7 +184,6 @@ div {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-
 .myAccountHolder ::before {
     content: '';
     display: block;
@@ -229,50 +196,41 @@ div {
     margin-left: -25px;
     color: #fff;
 }
-
 .myAccountHolder .myAccount {
     width: 116px;
     padding-left: 37px;
     margin-left: 13px;
 }
-
 .myBasketHolder .iconsBasketWhite {
     display: inline-block;
     width: 28px;
     height: 28px;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='28' height='28' viewBox='0 0 28 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h28v28H0z'/%3E%3Cpath d='M10.208 21.167a1.875 1.875 0 1 0 0 3.75 1.875 1.875 0 0 0 0-3.75zm10.5 0a1.875 1.875 0 1 0 0 3.75 1.875 1.875 0 0 0 0-3.75zM6.37 2.5c.754 0 1.428.45 1.722 1.132l.057.15.35 1.051H24.5a1 1 0 0 1 .987 1.162l-.025.113-2.152 7.532a1.875 1.875 0 0 1-1.648 1.354l-.155.006H11.193l-.916 2.441a.167.167 0 0 0 .052.189l.046.026.029.008.03.003h11.733a1 1 0 0 1 .116 1.993l-.116.007H10.434a2.167 2.167 0 0 1-2.078-2.781l.049-.147 1.034-2.761L6.279 4.5H3.5a1 1 0 0 1-.993-.883L2.5 3.5a1 1 0 0 1 .883-.993L3.5 2.5h2.87zm16.805 4.333H9.17L11.221 13h10.191l1.762-6.167z' fill='%23FFF'/%3E%3C/g%3E%3C/svg%3E");
 }
-
 .searchBox.withLocalization {
     padding: 0;
 }
-
 .searchBox {
     width: 512px;
     position: relative;
     width: 675px;
     z-index: 1000;
 }
-
 .searchArea {
     z-index: 1;
 }
-
 .searchBox * {
     box-sizing: border-box;
 }
-
 #productSearchForm,
 .searchArea {
     z-index: 1;
 }
-
 .searchBox input {
     width: 100%;
     height: 48px;
     box-sizing: border-box;
 }
-
 .searchBox input+.delSearchBtn {
     background-image: none;
     position: absolute;
@@ -282,7 +240,6 @@ div {
     width: 24px;
     height: 24px;
 }
-
 .searchBox input {
     background: #fff;
     border: none;
@@ -293,31 +250,25 @@ div {
     padding: 14px 106px 14px 16px;
     border-radius: 0 24px 24px 0;
 }
-
 .top {
     padding-top: 0 !important;
 }
-
 .sh .shContainer .shDetailPage .shLeft .tabs {
     margin: 19px 0 0;
     padding: 0;
     width: 100%;
     display: table;
 }
-
 .sh .shContainer .shDetailPage {
     padding-top: 34px;
 }
-
 .sh .shContainer .shDetailPage .shLeft {
     float: left;
     width: 948px;
 }
-
 .sh .shContainer .shDetailPage .shRight {
     float: right;
 }
-
 .sh .shContainer .shDetailPage .shLeft .tabs li {
     display: table-cell;
     font-size: 14px;
@@ -326,41 +277,32 @@ div {
     text-align: center;
     border-bottom: 2px solid #202020;
 }
-
 .sh .shContainer {
     position: relative;
     padding: 73px 0 50px;
 }
-
 .sh .shContainer .iptalIadeDegisim {
     background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/iptal-iade.svg);
 }
-
 .sh .shContainer .kargoTeslimat {
     background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/kargo-teslim.svg);
 }
-
 .sh .shContainer .urunMagaza {
     background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/urunMagaza.svg);
 }
-
 .sh .shContainer .odeme {
     background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/odeme.svg);
 }
-
 .sh .shContainer .kuponKampanyalar {
     background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/kupon.svg);
 }
-
 .sh .shContainer .uyelik {
     background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/uyelik.svg);
 }
-
 .sh {
     background-color: #f2f2f2;
     position: relative;
 }
-
 .sh .shContainer .shDetailPage .shRight h3.title {
     font-size: 14px;
     font-weight: 700;
@@ -369,7 +311,6 @@ div {
     color: #444;
     margin-top: 23px;
 }
-
 .sh .shContainer .shDetailPage .shRight .sagkutu li .navBox .boxIcon {
     display: table-cell;
     width: 60px;
@@ -377,16 +318,13 @@ div {
     background-size: cover;
     vertical-align: middle;
 }
-
 .sh .shContainer .tab-content {
     position: relative;
     margin-top: 10px;
 }
-
 .sh .shContainer .shDetailPage .shLeft .tab-content {
     margin-top: 20px;
 }
-
 .sh .shContainer .shDetailPage .shRight .sagkutu li .navBox {
     display: table;
     padding: 12px 0px;
@@ -396,7 +334,6 @@ div {
     width: 100%;
     box-sizing: border-box;
 }
-
 .sh .shContainer .shDetailPage .shRight .sagkutu li .navBox .title {
     display: table-cell;
     font-size: 16px;
@@ -408,7 +345,6 @@ div {
     width: 110px;
     vertical-align: middle;
 }
-
 .sh .shContainer .shDetailPage .shLeft h2.title {
     font-size: 28px;
     letter-spacing: 0;
@@ -416,7 +352,6 @@ div {
     text-align: left;
     font-weight: 400;
 }
-
 .sh .shContainer .shDetailPage .shLeft .tabs li a {
     display: block;
     color: #202020;
@@ -424,19 +359,16 @@ div {
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
     padding: 15px;
 }
-
 .sh .shContainer .shDetailPage .shRight .sagkutu {
     margin: 12px 0 0;
     padding: 0;
     width: 100%;
 }
-
 .sh .shContainer .shDetailPage .shLeft .tabs li a.active,
 .sh .shContainer .shDetailPage .shLeft .tabs li a:hover {
     background-color: #202020;
     color: #fff;
 }
-
 h3 {
     display: block;
     font-size: 1.17em;
@@ -446,7 +378,6 @@ h3 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-
 .lightBox .content {
     background: #fff;
     border-top: 2px solid #000;
@@ -464,79 +395,33 @@ h3 {
     width: 410px;
     padding: 30px 17px 70px 17px;
 }
-
-a,
-a:active,
-a:hover {
+a,a:active,a:hover {
     outline: 0;
     cursor: pointer;
 }
-
-a,
-body,
-canvas,
-caption,
-div,
-embed,
-fieldset,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-html,
-iframe,
-img,
-label,
-legend,
-li,
-object,
-ol,
-p,
-pre,
-span,
-strong,
-sub,
-sup,
-table,
-tbody,
-td,
-tfoot,
-th,
-thead,
-tr,
-ul {
+a, body,div,h2, h3,
+ img,li,ol,ul{
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     position: relative;
 }
-
-*,
 *::before,
 *::after {
     box-sizing: revert;
 }
-
 ol,
 ul {
     list-style: none;
 }
-
 .clear {
     clear: both;
 }
-
-input,
-select,
-textarea {
+input{
     font-family: inherit;
     outline: 0;
 }
-
 input[type="hidden" i] {
     appearance: none;
     background-color: initial;

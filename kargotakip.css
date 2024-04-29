@@ -1,0 +1,547 @@
+.sfbody {
+    background-color: #f2f2f2 !important;
+    overflow-x: hidden;
+}
+
+body {
+    background: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    color: #202020;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+#wrapper {
+    width: auto;
+
+}
+
+@media (max-width: 1160px) {
+    #wrapper {
+        float: left;
+        width: 100%;
+    }
+}
+
+#wrapper>.content {
+    z-index: 2;
+    float: left;
+}
+
+#wrapper>.content {
+    z-index: 2;
+    float: left;
+    margin-top: 16px;
+}
+
+@media (max-width: 1160px) {
+    .container {
+        position: relative;
+        width: 1168px;
+        margin: 0 auto 0;
+    }
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto 0;
+
+}
+
+.content {
+    position: relative;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    background-color: #5d3ebc;
+    zoom: 1;
+    display: block;
+    border-bottom: 1px solid #dedede;
+    z-index: 6;
+    position: relative;
+}
+
+#header .logo {
+    background: #8762f6;
+    height: 48px;
+    width: 107px;
+    display: block;
+    z-index: 100;
+    border-radius: 24px 0px 0px 24px;
+    padding: 4px 0 0 24px;
+    box-sizing: border-box;
+}
+
+#header .logo img {
+    display: block;
+    width: 63px;
+    height: 35px;
+}
+
+#header .searchBox .searchArea input {
+    height: 48px;
+    width: 100%;
+}
+
+.hMenu .hMedMenu>.hMedMenu-item {
+    width: 406px;
+    max-height: 100%;
+    display: flex;
+    justify-content: right;
+    padding-left: 16px;
+    margin-top: 0;
+}
+
+.hMenu {
+    height: 48px;
+    width: 100%;
+    padding: 16px 0;
+}
+
+.hMenu .hMedMenu {
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+
+.hMedMenu {
+    width: 730px;
+}
+
+.hMedMenu {
+    position: relative;
+    display: inline-block;
+    margin: 1px 0 10px 0;
+    z-index: 2;
+    width: 782px;
+}
+
+.hMenu .hMedMenu .hGroup-logo-search {
+    width: 782px;
+    max-height: 48px;
+    display: inline-block;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.sfbody #wrapper>.content {
+    margin-top: 74px !important;
+}
+
+.customMenuItem {
+    z-index: 1;
+}
+
+.sfbody .customMenu {
+    margin-top: 8px;
+}
+
+.customMenu {
+    position: relative;
+}
+
+.customMenuItem .menuTitle {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: -.01px;
+    color: #beb2e4;
+}
+
+.customMenuItem .menuLink {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+    cursor: pointer;
+    width: 116px;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: -.14px;
+}
+
+.myLocationHolder .myLocation .menuTitle {
+    margin-top: 3px;
+}
+
+.myLocationHolder::before {
+    content: '';
+    display: block;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='28' height='28' viewBox='0 0 28 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h28v28H0z'/%3E%3Cpath d='M14 1.333c5.688 0 10.333 4.665 10.333 10.334 0 5.31-3.293 10.25-9.756 14.816a1 1 0 0 1-1.156 0c-6.462-4.585-9.754-9.524-9.754-14.816C3.667 5.997 8.312 1.333 14 1.333zm0 2c-4.582 0-8.333 3.767-8.333 8.334 0 4.348 2.68 8.557 8.149 12.63l.184.136.186-.135c5.343-3.965 8.024-8.076 8.143-12.334l.004-.297c0-4.567-3.751-8.334-8.333-8.334zm0 3.834a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z' fill='%23FFF'/%3E%3C/g%3E%3C/svg%3E");
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    left: 0px;
+}
+
+.myLocationHolder .myLocation {
+    cursor: pointer;
+}
+
+.myLocationHolder .myLocation {
+    padding-left: 36px;
+}
+
+.myAccountHolder .myAccount,
+.myLocationHolder .myLocation {
+    width: 116px;
+
+    border-bottom: none;
+    z-index: 1;
+}
+
+.myLocation {
+    height: 36px;
+    cursor: pointer;
+}
+
+.myLocationHolder .myLocationMenu {
+    left: auto;
+    right: 0;
+    top: 64px;
+    width: 700px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.myAccountHolder ::before {
+    content: '';
+    display: block;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='28' height='28' viewBox='0 0 28 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h28v28H0z'/%3E%3Cpath d='M13.745 2c3.629 0 6.372 2.627 6.372 6.372 0 2.328-1.01 4.597-2.552 6.065 4.686.94 7.368 3.787 7.847 8.471a2.343 2.343 0 0 1-2.33 2.582H4.407a2.343 2.343 0 0 1-2.33-2.581c.477-4.685 3.16-7.532 7.846-8.473-1.542-1.467-2.552-3.736-2.552-6.064C7.372 4.627 10.116 2 13.745 2zm0 14.088c-6.1 0-9.196 2.298-9.678 7.024l-.001.017.006.087c.032.156.17.274.336.274h18.69l.086-.016a.343.343 0 0 0 .238-.362c-.482-4.726-3.579-7.024-9.678-7.024zm0-12.088c-2.543 0-4.373 1.752-4.373 4.372 0 2.936 2.134 5.716 4.373 5.716 2.239 0 4.372-2.78 4.372-5.716 0-2.62-1.829-4.372-4.372-4.372z' fill='%23FFF'/%3E%3C/g%3E%3C/svg%3E");
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    margin-left: -25px;
+    color: #fff;
+}
+
+.myAccountHolder .myAccount {
+    width: 116px;
+    padding-left: 37px;
+    margin-left: 13px;
+}
+
+.myBasketHolder .iconsBasketWhite {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='28' height='28' viewBox='0 0 28 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h28v28H0z'/%3E%3Cpath d='M10.208 21.167a1.875 1.875 0 1 0 0 3.75 1.875 1.875 0 0 0 0-3.75zm10.5 0a1.875 1.875 0 1 0 0 3.75 1.875 1.875 0 0 0 0-3.75zM6.37 2.5c.754 0 1.428.45 1.722 1.132l.057.15.35 1.051H24.5a1 1 0 0 1 .987 1.162l-.025.113-2.152 7.532a1.875 1.875 0 0 1-1.648 1.354l-.155.006H11.193l-.916 2.441a.167.167 0 0 0 .052.189l.046.026.029.008.03.003h11.733a1 1 0 0 1 .116 1.993l-.116.007H10.434a2.167 2.167 0 0 1-2.078-2.781l.049-.147 1.034-2.761L6.279 4.5H3.5a1 1 0 0 1-.993-.883L2.5 3.5a1 1 0 0 1 .883-.993L3.5 2.5h2.87zm16.805 4.333H9.17L11.221 13h10.191l1.762-6.167z' fill='%23FFF'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.searchBox.withLocalization {
+    padding: 0;
+}
+
+.searchBox {
+    width: 512px;
+    position: relative;
+    width: 675px;
+    z-index: 1000;
+}
+
+.searchArea {
+    z-index: 1;
+}
+
+.searchBox * {
+    box-sizing: border-box;
+}
+
+#productSearchForm,
+.searchArea {
+    z-index: 1;
+}
+
+.searchBox input {
+    width: 100%;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+.searchBox input+.delSearchBtn {
+    background-image: none;
+    position: absolute;
+    cursor: pointer;
+    right: 74px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.searchBox input {
+    background: #fff;
+    border: none;
+    color: #1f1f1f;
+    font-size: 15px;
+    height: 16px;
+    width: 610px;
+    padding: 14px 106px 14px 16px;
+    border-radius: 0 24px 24px 0;
+}
+
+.top {
+    padding-top: 0 !important;
+}
+
+.sh .shContainer .shDetailPage .shLeft .tabs {
+    margin: 19px 0 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+}
+
+.sh .shContainer .shDetailPage {
+    padding-top: 34px;
+}
+
+.sh .shContainer .shDetailPage .shLeft {
+    float: left;
+    width: 948px;
+}
+
+.sh .shContainer .shDetailPage .shRight {
+    float: right;
+}
+
+.sh .shContainer .shDetailPage .shLeft .tabs li {
+    display: table-cell;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center;
+    border-bottom: 2px solid #202020;
+}
+
+.sh .shContainer {
+    position: relative;
+    padding: 73px 0 50px;
+}
+
+.sh .shContainer .iptalIadeDegisim {
+    background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/iptal-iade.svg);
+}
+
+.sh .shContainer .kargoTeslimat {
+    background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/kargo-teslim.svg);
+}
+
+.sh .shContainer .urunMagaza {
+    background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/urunMagaza.svg);
+}
+
+.sh .shContainer .odeme {
+    background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/odeme.svg);
+}
+
+.sh .shContainer .kuponKampanyalar {
+    background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/kupon.svg);
+}
+
+.sh .shContainer .uyelik {
+    background-image: url(https://n11scdn.akamaized.net/static/new-design/static/img/layout/selfHelp/uyelik.svg);
+}
+
+.sh {
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.sh .shContainer .shDetailPage .shRight h3.title {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: left;
+    color: #444;
+    margin-top: 23px;
+}
+
+.sh .shContainer .shDetailPage .shRight .sagkutu li .navBox .boxIcon {
+    display: table-cell;
+    width: 60px;
+    height: 54px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.sh .shContainer .tab-content {
+    position: relative;
+    margin-top: 10px;
+}
+
+.sh .shContainer .shDetailPage .shLeft .tab-content {
+    margin-top: 20px;
+}
+
+.sh .shContainer .shDetailPage .shRight .sagkutu li .navBox {
+    display: table;
+    padding: 12px 0px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sh .shContainer .shDetailPage .shRight .sagkutu li .navBox .title {
+    display: table-cell;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: 0;
+    text-align: left;
+    color: #202020;
+    padding-left: 17px;
+    width: 110px;
+    vertical-align: middle;
+}
+
+.sh .shContainer .shDetailPage .shLeft h2.title {
+    font-size: 28px;
+    letter-spacing: 0;
+    color: #202020;
+    text-align: left;
+    font-weight: 400;
+}
+
+.sh .shContainer .shDetailPage .shLeft .tabs li a {
+    display: block;
+    color: #202020;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
+    padding: 15px;
+}
+
+.sh .shContainer .shDetailPage .shRight .sagkutu {
+    margin: 12px 0 0;
+    padding: 0;
+    width: 100%;
+}
+
+.sh .shContainer .shDetailPage .shLeft .tabs li a.active,
+.sh .shContainer .shDetailPage .shLeft .tabs li a:hover {
+    background-color: #202020;
+    color: #fff;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.lightBox .content {
+    background: #fff;
+    border-top: 2px solid #000;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: -210px;
+    min-width: 410px;
+    min-height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    left: 50%;
+    width: 410px;
+    padding: 30px 17px 70px 17px;
+}
+
+a,
+a:active,
+a:hover {
+    outline: 0;
+    cursor: pointer;
+}
+
+a,
+body,
+canvas,
+caption,
+div,
+embed,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+span,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    position: relative;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: revert;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+input,
+select,
+textarea {
+    font-family: inherit;
+    outline: 0;
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}

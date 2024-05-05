@@ -11,49 +11,40 @@ body {
 }
 div {
     display: block;
+    box-sizing: revert;
 }
 #wrapper {
-    width: auto;
-
+    width: 100%;
 }
 @media (max-width: 1160px) {
     #wrapper {
         float: left;
-        width: 100%;
     }
 }
 #wrapper>.content {
-    z-index: 2;
-    float: left;
-}
-#wrapper>.content {
-    z-index: 2;
     float: left;
     margin-top: 16px;
 }
 @media (max-width: 1160px) {
     .container {
         position: relative;
-        width: 1168px;
+        width: auto;
         margin: 0 auto 0;
     }
 }
 .container {
     width: 900px;
     margin: 0 auto 0;
-
 }
 .content {
     position: relative;
     width: 100%;
 }
 #header {
-    width: 100%;
+    width: auto;
     background-color: #5d3ebc;
-    zoom: 1;
     display: block;
     border-bottom: 1px solid #dedede;
-    z-index: 6;
     position: relative;
 }
 #header .logo {
@@ -61,7 +52,6 @@ div {
     height: 48px;
     width: 107px;
     display: block;
-    z-index: 100;
     border-radius: 24px 0px 0px 24px;
     padding: 4px 0 0 24px;
     box-sizing: border-box;
@@ -74,6 +64,11 @@ div {
 #header .searchBox .searchArea input {
     height: 48px;
     width: 100%;
+}
+@media (max-width: 1187px) {
+    .hMedMenu {
+        width: 730px;
+    }
 }
 .hMenu .hMedMenu>.hMedMenu-item {
     width: 406px;
@@ -96,12 +91,13 @@ div {
 .hMedMenu {
     width: 730px;
 }
+@media (max-width: 1187px) {
 .hMedMenu {
     position: relative;
     display: inline-block;
     margin: 1px 0 10px 0;
-    z-index: 2;
     width: 782px;
+}
 }
 .hMenu .hMedMenu .hGroup-logo-search {
     width: 782px;
@@ -113,9 +109,6 @@ div {
 }
 .sfbody #wrapper>.content {
     margin-top: 74px !important;
-}
-.customMenuItem {
-    z-index: 1;
 }
 .sfbody .customMenu {
     margin-top: 8px;
@@ -129,7 +122,6 @@ div {
     margin-top: 0;
     font-size: 10px;
     font-weight: 700;
-    letter-spacing: -.01px;
     color: #beb2e4;
 }
 .customMenuItem .menuLink {
@@ -138,12 +130,10 @@ div {
     white-space: nowrap;
     text-overflow: ellipsis;
     color: #fff;
-    cursor: pointer;
     width: 116px;
     text-decoration: underline;
     font-size: 13px;
     font-weight: 600;
-    letter-spacing: -.14px;
 }
 .myLocationHolder .myLocation .menuTitle {
     margin-top: 3px;
@@ -160,21 +150,15 @@ div {
     left: 0px;
 }
 .myLocationHolder .myLocation {
-    cursor: pointer;
-}
-.myLocationHolder .myLocation {
     padding-left: 36px;
 }
 .myAccountHolder .myAccount,
 .myLocationHolder .myLocation {
     width: 116px;
-
     border-bottom: none;
-    z-index: 1;
 }
 .myLocation {
     height: 36px;
-    cursor: pointer;
 }
 .myLocationHolder .myLocationMenu {
     left: auto;
@@ -182,7 +166,6 @@ div {
     top: 64px;
     width: 700px;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
 }
 .myAccountHolder ::before {
     content: '';
@@ -207,38 +190,15 @@ div {
     height: 28px;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='28' height='28' viewBox='0 0 28 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h28v28H0z'/%3E%3Cpath d='M10.208 21.167a1.875 1.875 0 1 0 0 3.75 1.875 1.875 0 0 0 0-3.75zm10.5 0a1.875 1.875 0 1 0 0 3.75 1.875 1.875 0 0 0 0-3.75zM6.37 2.5c.754 0 1.428.45 1.722 1.132l.057.15.35 1.051H24.5a1 1 0 0 1 .987 1.162l-.025.113-2.152 7.532a1.875 1.875 0 0 1-1.648 1.354l-.155.006H11.193l-.916 2.441a.167.167 0 0 0 .052.189l.046.026.029.008.03.003h11.733a1 1 0 0 1 .116 1.993l-.116.007H10.434a2.167 2.167 0 0 1-2.078-2.781l.049-.147 1.034-2.761L6.279 4.5H3.5a1 1 0 0 1-.993-.883L2.5 3.5a1 1 0 0 1 .883-.993L3.5 2.5h2.87zm16.805 4.333H9.17L11.221 13h10.191l1.762-6.167z' fill='%23FFF'/%3E%3C/g%3E%3C/svg%3E");
 }
-.searchBox.withLocalization {
-    padding: 0;
-}
 .searchBox {
     width: 512px;
     position: relative;
     width: 675px;
-    z-index: 1000;
-}
-.searchArea {
-    z-index: 1;
-}
-.searchBox * {
-    box-sizing: border-box;
-}
-#productSearchForm,
-.searchArea {
-    z-index: 1;
 }
 .searchBox input {
     width: 100%;
     height: 48px;
     box-sizing: border-box;
-}
-.searchBox input+.delSearchBtn {
-    background-image: none;
-    position: absolute;
-    cursor: pointer;
-    right: 74px;
-    top: 12px;
-    width: 24px;
-    height: 24px;
 }
 .searchBox input {
     background: #fff;
@@ -273,7 +233,6 @@ div {
     display: table-cell;
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0;
     text-align: center;
     border-bottom: 2px solid #202020;
 }
@@ -306,7 +265,6 @@ div {
 .sh .shContainer .shDetailPage .shRight h3.title {
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0;
     text-align: left;
     color: #444;
     margin-top: 23px;
@@ -330,7 +288,6 @@ div {
     padding: 12px 0px;
     background-color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, .15);
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
     width: 100%;
     box-sizing: border-box;
 }
@@ -378,26 +335,8 @@ h3 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.lightBox .content {
-    background: #fff;
-    border-top: 2px solid #000;
-    font-size: 13px;
-    line-height: 18px;
-    margin-left: -210px;
-    min-width: 410px;
-    min-height: 40px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    left: 50%;
-    width: 410px;
-    padding: 30px 17px 70px 17px;
-}
 a,a:active,a:hover {
     outline: 0;
-    cursor: pointer;
 }
 a, body,div,h2, h3,
  img,li,ol,ul{
@@ -420,13 +359,4 @@ ul {
 }
 input{
     font-family: inherit;
-    outline: 0;
-}
-input[type="hidden" i] {
-    appearance: none;
-    background-color: initial;
-    cursor: default;
-    display: none !important;
-    padding: initial;
-    border: initial;
 }
